@@ -18,7 +18,6 @@
             </div>
         </div>
         <p class="prompt">分享答题结果，查看排行榜</p>
-        <img src="../lib/images/result/Bottom-information.png" alt="" class="footer">
     </div>
 </template>
 <script>
@@ -70,7 +69,7 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background: url('../lib/images/result/jg_bj.png') 100% 100% no-repeat;
+    background-color: #386bd2;
     background-size: cover;    
     overflow-y: scroll;
     .title{    
@@ -130,13 +129,6 @@
         color: #fff600;
         text-align: center;    
         margin-bottom: 2.26rem;
-    }
-    .footer{
-      width: 100%;
-      height: 2.26rem;
-      position: fixed;
-      left:0;
-      bottom: 0;
     }
   }
 </style>

@@ -128,7 +128,7 @@
         left: 0;
         width: 100%;
         height: 100%;
-        background: url('../lib/images/result/jg_bj.png') 100% 100% no-repeat;
+        background-color: #386bd2;
         background-size: cover;
         overflow-y: scroll;
         .title{    

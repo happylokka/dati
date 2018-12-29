@@ -130,7 +130,7 @@ export default {
     left: 0;
     width: 100%;
     height: 100%;
-    background: url('../lib/images/question/dt_bj.png') center top no-repeat;
+    background-color: #386bd2;
     background-size: cover;
     overflow-y: scroll;
     .item-con{
