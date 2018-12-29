@@ -1,0 +1,71 @@
+.mint-radiolist-title{
+    display: none;
+}
+.mint-cell{
+    width: 100%;
+    margin-bottom: 0.24rem;
+    font-family: 'PingFangSC-Semibold';
+    font-size: 18px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    min-height: 44px;
+    background-color: transparent;
+}
+.mint-cell:last-child{
+    background-image:none;
+}
+.mint-radio-input:checked + .mint-radio-core{
+    background-color: transparent;
+    border-color: #fff;
+}
+.mint-radio-core{
+    background-color: transparent;
+    border: 1px solid #fff;
+}
+.mint-radio-core::after{
+    top: 4px;
+    left: 4px;
+    width: 10px;
+    height: 10px;
+}
+.mint-cell-wrapper{
+    background-image:none;    
+    font-size: 18px;
+}
+.picker-item{
+    font-size: 16px;
+    font-weight: bold;
+    color: #d3d3d3 !important;
+}
+.mint-msgbox{
+    height: 4.06rem;
+    border-radius: 0.2rem;
+}
+.mint-msgbox-header{
+    height: 1.02rem;
+    line-height: 1.02rem;
+    background-color: #fe0100;
+    padding: 0;
+}
+.mint-msgbox-title{
+    color: #fff;
+}
+.mint-msgbox-content{
+    border-bottom: none;
+}
+.mint-msgbox-btns{
+    width: 3.06rem;
+    height: 0.9rem;
+    margin: 0 auto;
+}
+.mint-msgbox-message{
+    height: 1.35rem;
+    font: 20px/1.35rem 'PingFangSC-Semibold';
+}
+.mint-msgbox-confirm{    
+    width: 3.04rem;
+    height: 0.88rem;
+    background: url('../images/question/confirm.png') 100% 100% no-repeat;
+    background-size: contain;
+}

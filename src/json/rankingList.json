@@ -1,0 +1,49 @@
+{
+    "status": 1,
+    "results": {
+        "page": 3,
+        "counts": "1",
+        "list": [
+            {
+                "uuid": 1,
+                "name": "丶Pico丨巅丶峰",
+                "score": "80",
+                "head": "./src/lib/images/head/timg.jpg"
+            },
+            {
+                "uuid": 2,
+                "name": "御龙在天",
+                "score": "60",
+                "head": "./src/lib/images/head/timg1.jpg"
+            },
+            {
+                "uuid": 3,
+                "name": "灬殘血★戰狼王",
+                "score": "50",
+                "head": "./src/lib/images/head/timg2.jpg"
+            },
+            {
+                "uuid": 4,
+                "name": "烈火战神",
+                "score": "46",
+                "head": "./src/lib/images/head/timg3.jpg"
+            },
+            {
+                "uuid": 5,
+                "name": "苍空的蓝耀",
+                "score": "2",
+                "head": "./src/lib/images/head/timg4.jpg"
+            }
+        ],
+        "uuid": "2",
+        "my": {
+            "uuid": "2",
+            "name": "御龙在天",
+            "rank": 2,
+            "score": "60",
+            "head": "./src/lib/images/head/timg1.jpg",
+            "ishave": true
+        }
+    },
+    "reason": "ok"
+}
